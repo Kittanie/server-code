@@ -1,0 +1,234 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial
+Description: A demo theme built to accompany the Treehouse blog post <a href="http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial">How to Build a WordPress Theme with Bootstrap</a>.
+Author: Zac Gordon
+Author URI: http://teamtreehouse.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+@import url('css/bootstrap.css'); 
+@import url('css/bootstrap-responsive.css');
+
+
+body {
+   
+  padding-bottom: 60px;
+  background-color: #f5f5e4;
+  background-image:url('http://localhost:8080/wp-content/uploads/2014/10/kids.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  padding-bottom: 40px;
+/*background-color: #f4f4dd;*/
+  
+  
+}
+
+p{
+	color: #212121;
+}
+
+
+
+
+
+
+
+
+.home{
+	background-color: #f8abab;
+}
+
+.about{
+	background-color: #f7e497;
+}
+
+.contact{
+	background-color: #f9f89d;
+}
+
+.whatson{
+	background-color: #c0f99d;
+}
+
+img.center{
+	margin-left: 300px;
+}
+
+/*IMAGE CENTERING*/
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.centre{
+
+	text-align: center;
+}
+
+#myCarousel{
+	width: 800px;
+	height: 580px;
+	
+	margin-bottom: 20px;
+}
+
+.headerbanner{
+	margin-right: auto;
+	margin-left: 250px;
+
+}
+
+
+.about-well {
+min-height: 20px;
+padding: 19px;
+margin-top: 20px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+
+}
+
+.about-well.red {
+background-color: #F38C8C;
+border: 1px solid #F36464;
+}
+.div.background{
+	background-color: #e00020;
+}
+
+
+.textcenter{
+	text-align: center;
+}
+
+
+
+
+
+.imagepush{
+
+	margin-top: 30px;
+
+}
+
+.aboutpush{
+
+	margin-top: 20px;
+}
+
+.rulepush{
+
+	margin-top: 70px;
+}
+
+
+.banner-red{
+
+	background-color: #e30613; 
+}
+
+.banner-orange{
+
+	background-color: #f39200; 
+}
+
+.banner-green{
+
+	background-color: #94c11f; 
+}
+
+.banner-blue{
+
+	background-color: #009fe3; 
+
+	margin-bottom: 0px;
+
+	border: 0px;
+}
+
+.banner-purple{
+
+	background-color: #662483; 
+}
+
+
+.white{
+
+	color: #ffffff;
+}
+
+.grey{
+
+	color: #212121;
+}
+
+.container-banner{
+
+	width: auto;
+}
+
+.bottom-padding{
+
+	padding-bottom: 20px;
+}
+
+.news{
+
+	margin-bottom: 5px;
+}
+
+.textbox{
+	background-color: rgba(255,255,255,.5);
+	padding:5px;
+	border-radius:20px;
+
+}
+
+.textboxred{
+	background-color: rgba(227,6,19,.6);
+	padding:5px;
+	border-radius:20px;
+}
+
+h2{
+	margin-top: 10px;
+}
+
+.row.featurette.aboutus{
+
+	margin-bottom: 30px;
+}
+
+.featurette-heading{
+	text-align: center;
+}
+
+hr.red{
+
+	border-top: 3px solid #eebcbf;
+
+}
+
+.imgspace{
+
+	padding-top: 55px;
+}
+
+
+.container.map{
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
