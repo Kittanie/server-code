@@ -27,18 +27,9 @@ $ mkdir felixroad
 docker run -d \
 	--name felixroad \
 	-v /srv/projects/server-data/wordpress-mysqldata/felixroad:/var/lib/mysql \
+	-v /srv/projects/server-data/wordpress-uploads/felixroad:/var/www/html/wp-content/uploads \
 	-v /srv/projects/server-code/wordpress-themes/felixroad:/var/www/html/wp-content/themes/custom \
 	-p 8081:80 \
-	tutum/wordpress
-```
-
-```
-docker run -d \
-	--name felixroad \
-	-v /srv/projects/server-data/wordpress-mysqldata/felixroad:/var/lib/mysql \
-	-v /srv/projects/server-data/wordpress-uploads/felixroad:/var/www/html/wp-content/uploads/custom \
-	-v /srv/projects/server-code/wordpress-themes/felixroad:/var/www/html/wp-content/themes/custom \
-	-p 8080:80 \
 	tutum/wordpress
 ```
 
@@ -63,3 +54,33 @@ docker run -d \
 	-p 80:80 \
 	nginx
 ```
+
+
+##Command Section
+
+
+How much memeory is free
+```
+$ free
+```
+disk usege
+```
+$ df
+```
+programs running
+```
+$ top
+```
+
+plus shift M to sort by memory use
+
+
+
+network sockets open
+
+```
+$ sudo netstat -tulpn
+```
+
+
+
