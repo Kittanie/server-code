@@ -29,6 +29,7 @@ docker run -d \
 	-v /srv/projects/server-data/wordpress-mysqldata/felixroad:/var/lib/mysql \
 	-v /srv/projects/server-data/wordpress-uploads/felixroad:/var/www/html/wp-content/uploads \
 	-v /srv/projects/server-code/wordpress-themes/felixroad:/var/www/html/wp-content/themes/custom \
+	--restart=always \
 	-p 8081:80 \
 	tutum/wordpress
 ```
@@ -51,6 +52,7 @@ docker run -d \
 	--name nginx \
 	-v /srv/projects/server-code/nginx:/etc/nginx/conf.d \
 	-v /srv/projects/didesign:/home/websites/didesign \
+	--restart=always \
 	-p 80:80 \
 	nginx
 ```
