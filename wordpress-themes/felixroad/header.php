@@ -50,7 +50,7 @@
               <ul class="nav navbar-nav">
                 
                 <?php wp_list_pages(array('title_li' => '')); ?>
-                <button href="http://felixroad.didesignbristol.com/wp-admin" type="button" class="btn btn-primary">Login</button>
+                
                     
                 
               </ul>
