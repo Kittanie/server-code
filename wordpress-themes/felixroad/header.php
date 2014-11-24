@@ -21,11 +21,11 @@
   <body>
 
  
-<div class="container">
 
-  <img src="http://felixroad.didesignbristol.com/wp-content/uploads/2014/11/bluebanding.png">
 
-</div>
+  <img src="http://felixroad.didesignbristol.com/wp-content/uploads/2014/11/bluebanding.png" style="width: 1000px, height: 200px;">
+
+
 
 
 
