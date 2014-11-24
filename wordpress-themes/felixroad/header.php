@@ -24,7 +24,7 @@
 
 <div class="container center-block">
   <div class="row">
-    <div class="col-md-offset-3">
+    <div class="col-md-offset-1">
     <img class="img-responsive" src="http://felixroad.didesignbristol.com/wp-content/uploads/2014/11/home-banner.png" style="width: 1000px, height: 200px;">
     </div>
  </div>
