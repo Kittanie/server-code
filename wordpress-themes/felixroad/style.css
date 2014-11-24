@@ -232,3 +232,9 @@ hr.red{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+.contactstyle{
+	background-color: rgba(255,255,255,.5);
+	padding:5px;
+	border-radius:20px;
+}
