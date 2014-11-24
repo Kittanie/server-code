@@ -19,6 +19,7 @@ This simple theme was built using the example Bootstrap theme "Basic marketing s
 
 body {
    
+  padding-top: 10px;
   padding-bottom: 60px;
   background-color: #f5f5e4;
   background-image:url('http://felixroad.didesignbristol.com/wp-content/uploads/2014/11/kids.png');

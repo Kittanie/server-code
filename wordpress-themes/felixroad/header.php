@@ -22,7 +22,7 @@
 
  
 
-<div class="container">
+<div class="container center-block">
   <img src="http://felixroad.didesignbristol.com/wp-content/uploads/2014/11/home-banner.png" style="width: 1000px, height: 200px;">
 </div>
 
