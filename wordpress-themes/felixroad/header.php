@@ -50,7 +50,7 @@
               <ul class="nav navbar-nav">
                 
                 <?php wp_list_pages(array('title_li' => '')); ?>
-                
+                <p><?php wp_loginout(); ?></p>
                     
                 
               </ul>
