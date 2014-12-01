@@ -49,7 +49,7 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 
-                <?php wp_list_pages(array('title_li' => ''))wp_loginout();  ?>
+                <?php wp_list_pages(array('title_li' => '')); wp_loginout();  ?>
                 
                     
                 
