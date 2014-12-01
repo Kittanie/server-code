@@ -50,6 +50,9 @@
               <ul class="nav navbar-nav">
                 
                 <?php wp_list_pages(array('title_li' => '')); wp_loginout();  ?>
+                <form class="navbar-form navbar-right" role="form">
+                <button type="submit" class="btn btn-success">Sign in</button>
+                </form>
                 
                     
                 
