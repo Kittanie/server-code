@@ -4,6 +4,7 @@ Template Name: Blog Posts
 */
 
 <php get_header(); ?>
+<div class="container center-block">
 
 	<div id="content">
 
@@ -42,5 +43,5 @@ Template Name: Blog Posts
 	<?php endif; wp_reset_query(); ?>
 
 	</div><!-- /#content -->
-
+</div>
 <?php get_footer(); ?>
